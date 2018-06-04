@@ -4,8 +4,9 @@
   "description": "A physics game engine for canvas based games ",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --open --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "vHumberi",
   "license": "ISC",
